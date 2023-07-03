@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabeçalho {
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center; 
+    gap: 1rem;
+    font-family: var(--fonte-principal);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    gap: 1rem;
+}
+
+.opções_link {
+    margin: auto;
+    text-decoration: none;
+    color: var(--branco-principal);  
+}
+
+form {
+    justify-self: end;
+}
+

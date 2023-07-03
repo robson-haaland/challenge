@@ -1,0 +1,20 @@
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+
+.swiper-slide{
+    width: 800px;
+    position: relative;
+}
+
+swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+   
+}
+
