@@ -32,3 +32,19 @@ form {
     justify-self: end;
 }
 
+.search-container {
+text-align: center;
+margin: 10px;
+padding: 10px;
+}
+
+.botao{
+ background-color: var(--preto-pricipal);
+ color: var(--branco-principal);
+ margin: 10px;
+ padding: 10px 10px;
+ border: solid white;
+ border-radius: 4px;
+ cursor: pointer;
+ font-family: var(--fonte-principal);
+}
