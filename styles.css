@@ -1,0 +1,18 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+:root {
+    --preto-principal:#000000;
+    --primaria1: #CCCCCC;
+    --secundaria1:#DAFF01;
+    --terciaria1:#9353FF;
+    --fonte-principal: "Inter";
+    --cor-do-banner1:#EE6471;
+    --cor-do-banner2:#F87F46;
+    --branco-principal:#FFFFFF;
+}
+
+body {
+    font-family: var(--fonte-principal);
+}

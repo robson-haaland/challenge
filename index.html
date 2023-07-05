@@ -1,74 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css">
-  <title>Loja Meteora</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="style/index.css">
-  <link rel="stylesheet" href="./style/custom-swiper.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Meteora</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="cabeçalho">
+ <header class="cabeçalho">
     <nav>
-      <img src="img/Logo desktop.svg" alt="Logo da marca Meteora">
-     <ul>
-        <li class="opções_item"><a href="#" class="opções_link">Home</a></li>
-        <li class="opções_item"><a href="#" class="opções_link">Nossas Lojas</a></li>
-        <li class="opções_item"><a href="#" class="opções_link">Novidades</a></li>
-        <li class="opções_item"><a href="#" class="opções_link">Promoções</a></li>
-      </ul>
+        <img src="img/Logo desktop.svg" alt="Logo da Meteora">
+        <ul>
+            <li class="opções_item"><a href="#" class="opções_link">Home</a></li>
+            <li class="opções_item">
+                <a href="#" class="opções_link">Nossas Lojas</a>
+            </li>
+            <li class="opções_item">
+                <a href="#" class="opções_link">Novidades</a>
+            </li>
+            <li class="opções_item">
+                <a href="#" class="opções_link">Promoções</a>
+            </li>
+        </ul>  
     </nav>
     <form class="buscar">
-      <input type="text" class="search-container" placeholder="Digite o produto">
-      <button type="submit" class="botao">Buscar</button>
+        <input type="text" class="search-container" placeholder="Digite o produto">
+        <button type="submit" class="buscar-button">Buscar</button>
     </form>
-  </header>
-  <section class="banner">
 
-    <div class="swipper">
-    <div class="swiper-wrapper">
+ </header>   
+ <section class="banner">
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/Banner carousel 1 _ 1440 (1).png" alt="Banner Carrossel 1">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/Banner carousel 2 _ 1440 (1).png" alt="Banner Carrossel 2">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/Banner carousel 3 _ 1440 (1).png" alt="Banner Carrossel 3">
+        </div>
+        </div>
+        <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+    </div>
+ </section>
+ <script src="https:cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+ <script>
+    const swiper = new Swiper(".swiper", {
+        loop: true,
 
-    <div class="swiper-slide"> <img src="img/Banner carousel 1 _ 1440 (1).png" alt="Banner carrosel 1"></div>
-    <div class="swiper-slide"> <img src="img/Banner carousel 2 _ 1440 (1).png" alt="Banner carrossel 2"></div>
-    <div class="swiper-slide"> <img src="img/Banner carousel 3 _ 1440 (1).png" alt="Banner carrosel 3"></div>
-      </div>
-   
-      <img class="custom-prev" src="./img/setaEsq.svg" alt="">
-      <img class="custom-next" src="./img/setaDir.svg" alt="">
+        pagination: {
+          el:"swiper-pagination"
+        },
 
-    <div class="swiper-button-next"></div> 
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-pagination"></div>  
-
-    <div class="swuiper-scrollbar">
-
-      </div>
-
-    
-  
-  
-      <script src="node_modules/swiper/swiper-bundle.min.js"></script>
-      <script src="./js/index.js"></script>
-
-      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-      <script>
-        const swiper = new Swiper (".swiper", {
-          // If we need pagination
-          loop: true,
-          pagination: {
-            el: "swiper-pagination",
-          },
-
-          //Navigation arrows
-          navigation: {
+        navigation: {
             nextEl: ".swiper-button-next",
-            prevEl: "swiper-button-prev",
-          },
-        });
-        console.log("teste");
-      </script>
+            prevEl: ".swiper-button-prev",
+        },
+    })
+ </script>
 </body>
 </html>

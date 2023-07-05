@@ -1,4 +1,8 @@
-const swiper = new Swiper('.swiper-container', {
+import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+
+
+const swiper = new Swiper('.swiper', {
+    speed: 400,
     slidesPerView: 1,
     spaceBetween: 10,
     pagination: {

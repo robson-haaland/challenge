@@ -1,0 +1,46 @@
+.swiper-button-prev, .swiper-button-next {
+    opacity: 0;
+}
+
+.banner {
+    width: 100%;
+}
+
+.swiper-button-prev {
+    left: 40px
+}
+
+.swiper-button-next {
+    right: 40px;
+}
+
+.swiper-pagination-bullet {
+    border-radius: 0;
+    width: 10%;
+    height: 3px;
+}
+
+.swiper-pagination-bullet-active{
+    background: var(--branco-principal);
+}
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    opacity: 0;
+    cursor: auto;
+    pointer-events: none;
+}
+
+.custom-prev{
+    position: absolute;
+    z-index: 1;
+    top: 47.5%;
+    left: 47px;
+    pointer-events: none;
+}
+.custom-next{
+    position: absolute;
+    z-index: 1;
+    top: 47.5%;
+    right: 47px;
+    pointer-events: none;
+}
