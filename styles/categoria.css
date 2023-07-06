@@ -1,0 +1,21 @@
+.categoria-titulo{
+    text-align: center;
+    font-family: var(--fonte-principal);
+}
+
+.secao{
+    display: flex;
+    text-align: center;
+    height: 150px;
+    
+    
+}
+
+.secao_titulo{
+    margin-top: 10px;
+    align-self: last baseline;
+}
+
+.categoria-secao{
+    align-self: end;   
+}
