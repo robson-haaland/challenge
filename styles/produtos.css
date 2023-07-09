@@ -3,6 +3,7 @@
    flex-direction: column;
    margin: 10px;
    width: 300px;
+   
 }
 
 .produtos{
@@ -10,9 +11,7 @@
     font-family: var(--fonte-principal);
 }
 
-.lista_produtos{
-    align-items: center;
-}
+
 
 .produto_anuncio{
     text-align: center;
@@ -22,8 +21,17 @@
 
 .produto_container{
  display: grid;
- display: flex;
-  grid-template-columns: 500px 500px 500px;
-  margin: 2px;
-  align-items: center;
+grid-template-columns: 500px 500px 500px;
+justify-content: stretch;
+padding: 5vh;
+}
+
+.ver-mais-btn{
+    background-color: var(--terciaria1);
+    color: var(--branco-principal);
+    border: none;
+    border-top: 10px;
+    font-size: 22px;
+    border-top: 0;
+    display: inline-block;
 }
