@@ -1,21 +1,27 @@
-.categoria-titulo{
-    text-align: center;
-    font-family: var(--fonte-principal);
+.categoria-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
 
 .secao{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.categoria-titulo{
     text-align: center;
-    height: 150px;
-    
-    
 }
 
 .secao_titulo{
-    margin-top: 10px;
-    align-self: last baseline;
-}
-
-.categoria-secao{
-    align-self: end;   
+    background-color: var(--preto-principal);
+    color: var(--branco-principal);
+    margin: 0;
+    padding: 10px 24px;
+    width: 70%;
+    text-align: center;
+    font-family: var(--fonte-principal);
 }

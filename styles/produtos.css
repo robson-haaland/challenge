@@ -1,0 +1,20 @@
+.card{
+   display: flex;
+   
+   
+}
+
+.produtos{
+    text-align: center;
+    font-family: var(--fonte-principal);
+}
+
+.lista_produtos{
+    align-items: center;
+}
+
+.produto_anuncio{
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 24px;
+}
