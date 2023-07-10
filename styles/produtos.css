@@ -21,9 +21,9 @@
 
 .produto_container{
  display: grid;
-grid-template-columns: 500px 500px 500px;
-justify-content: stretch;
-padding: 5vh;
+grid-template-columns: 335px 335px 335px;
+justify-content: center;
+gap: 26px;
 }
 
 .ver-mais-btn{
@@ -34,4 +34,13 @@ padding: 5vh;
     font-size: 22px;
     border-top: 0;
     display: inline-block;
+    width: 150px;
+    height: 50px;
+   align-items: center;
+   margin: auto;
+}
+
+.produto_descricao{
+    font-size: 12px;
+    font-family: var(--fonte-principal);
 }

@@ -1,0 +1,39 @@
+.redes-sociais{
+    background-color: var(--preto-principal);
+}
+
+.redes_titulo{
+    font-family: var(--fonte-principal);
+    color: var(--branco-principal);
+    font-size: 26px;
+    text-align: center;
+}
+
+.redes_img{
+    display: inline-block;
+    width: 33,33%;
+    margin-right: 30px;
+}
+
+.redes_icones{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    margin-right: 10px;
+   
+}
+
+.redes_subtitulo{
+    color: var(--secundaria1);
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    
+}
+
+.rede_texto{
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal) ;
+    font-size: 14px;
+}
