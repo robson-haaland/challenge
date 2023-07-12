@@ -1,0 +1,23 @@
+.conteudo{
+   background: var(--branco-principal);
+   border-radius: 0,5rem;
+   padding: 2rem;
+   text-align: center;
+   width: min(50rem, 80%);
+   height: min(20rem, 15%);
+   margin: auto;
+}
+
+.conteudo_texto{
+    text-align: center; 
+    font-family: var(--fonte-principal);
+    margin-bottom: 1.5rem;
+    align-items: center;
+}
+
+.contato_email{
+    min-width: 30rem;
+    min-height: 2rem;  
+    font-size: 20px;
+    padding-left: 20px;
+}
