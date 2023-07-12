@@ -48,22 +48,7 @@
          <div class="swiper-button-prev"></div>
     </div>
  </section>
- <script src="https:cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
- <script>
-    const swiper = new Swiper(".swiper", {
-        loop: true,
-
-        pagination: {
-          el:"swiper-pagination"
-        },
-
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-    })
- </script>
-
+ 
 <section class="categoria">
     <h2 class="categoria-titulo">Busque por categoria:</h2>
     <br>
@@ -216,11 +201,28 @@
             </form>
             
          </dialog> 
-         <br><br><br><br><br><br><br><br><br><br><br>
+         
          <footer class="rodapé">
             <br>
             <p class="rodapé_titulo">2023 © Desenvolvido por Alura | Projeto fictício sem fins comerciais.</p>
           </footer>
+
+          <script src="https:cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+ <script>
+    const swiper = new Swiper(".swiper", {
+        loop: true,
+
+        pagination: {
+          el:"swiper-pagination"
+        },
+
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    })
+ </script>
+
         
     </body>
     </html>

@@ -1,6 +1,7 @@
 .rodapé{
     background-color: var(--preto-principal);
-}
+    vertical-align: 50px;
+}  
 
 .rodapé_titulo{
     font-family: var(--fonte-principal);
@@ -8,5 +9,5 @@
     font-size: 16px;
    text-align: center;
    height: 50px;
-   margin-bottom: auto;
+   margin-inline-end: auto;
 }
