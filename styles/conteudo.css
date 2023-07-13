@@ -1,5 +1,5 @@
 .conteudo{
- width: 800px;
+ width: 900px;
  height: 150px;
  background-color: var(--branco-principal);
  border: 1px solid var(--preto-principal);
@@ -20,16 +20,19 @@
 }
 
 .contato_email{
-    min-width: 30rem;
-    min-height: 2rem;  
+    min-width: 38rem;
+    min-height: 3rem;  
     font-size: 20px;
     padding-left: 20px;
     color: var(--terciaria1);
+   
 }
 
 .conteudo_botao{
     background-color: var(--terciaria1);
     border: none;
-    width: 135px;
+    width: 120px;
     height: 50px;
+    align-items: end;
+    
 }
