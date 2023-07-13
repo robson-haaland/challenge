@@ -3,12 +3,16 @@
    flex-direction: column;
    margin: 10px;
    width: 300px;
+   border: 1px solid var(--primaria1); 
+   margin-top: 10px;
    
 }
 
 .produtos{
     text-align: center;
     font-family: var(--fonte-principal);
+    margin-bottom: 60px;
+    margin-top: 35px;
 }
 
 
@@ -17,6 +21,8 @@
     text-align: center;
     font-family: var(--fonte-principal);
     font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .produto_container{
@@ -24,6 +30,9 @@
 grid-template-columns: 335px 335px 335px;
 justify-content: center;
 gap: 26px;
+margin-top: 55px;
+margin-bottom: 10px;
+padding-top: 10px;
 }
 
 .ver-mais-btn{
@@ -37,11 +46,17 @@ gap: 26px;
     width: 150px;
     height: 50px;
    align-items: center;
-   margin: auto;
+   margin-bottom: 10px;
    cursor: pointer;
 }
 
 .produto_descricao{
-    font-size: 12px;
-    font-family: var(--fonte-principal);
+   text-align: center;
+   font-size: 12px;
+   margin-bottom: 20px;
+}
+
+.produto_descricao1{
+    font-weight: bold;
+    padding-bottom: 15px;
 }

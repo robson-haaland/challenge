@@ -1,11 +1,15 @@
 .conteudo{
-   background: var(--branco-principal);
-   border-radius: 0,5rem;
-   padding: 2rem;
-   text-align: center;
-   width: min(50rem, 80%);
-   height: min(20rem, 15%);
-   margin: auto;
+ width: 800px;
+ height: 150px;
+ background-color: var(--branco-principal);
+ border: 1px solid var(--preto-principal);
+ padding: 20px;
+ text-align: center;
+ margin: auto;
+ font-family: var(--fonte-principal);
+ font-size: 16px;
+ margin-top: 50px;
+ margin-bottom: 25px;
 }
 
 .conteudo_texto{
@@ -20,4 +24,12 @@
     min-height: 2rem;  
     font-size: 20px;
     padding-left: 20px;
+    color: var(--terciaria1);
+}
+
+.conteudo_botao{
+    background-color: var(--terciaria1);
+    border: none;
+    width: 135px;
+    height: 50px;
 }
