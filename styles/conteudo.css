@@ -1,11 +1,12 @@
 .conteudo{
- width: 900px;
+ width: 70%;
  height: 150px;
  background-color: var(--branco-principal);
  border: 1px solid var(--preto-principal);
  padding: 20px;
  text-align: center;
- margin: auto;
+ margin: 4.094rem auto;
+ padding: 40px 0;
  font-family: var(--fonte-principal);
  font-size: 16px;
  margin-top: 50px;
@@ -20,19 +21,26 @@
 }
 
 .contato_email{
-    min-width: 38rem;
-    min-height: 3rem;  
+      
     font-size: 20px;
     padding-left: 20px;
     color: var(--terciaria1);
-   
+    padding: .3rem;
+    width: 70%;
+    margin: -7px;
+    line-height: 2.2rem;
+}
+
+.conteudo div{
+    display: flex;
+    justify-content: center;
 }
 
 .conteudo_botao{
+    padding: 1.1rem;
     background-color: var(--terciaria1);
+    color: var(--branco-principal);
     border: none;
-    width: 120px;
-    height: 50px;
-    align-items: end;
+  
     
 }
