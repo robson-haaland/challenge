@@ -171,17 +171,21 @@
                 </li>
             </ul>
 
-         </section>
-         <div class="modal">
+        </section>
          <div class="conteudo">
             <h2 class="conteudo_texto">Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</h2>
             <form>
                 <label for="name">E-mail</label>
                 <input type="email" name="email" required placeholder="Digite seu email" class="contato_email">
                 <button type="submit" class="conteudo_botao">Enviar</button> 
+                
             </form>
-            <button type="button" class="btn close">X</button>
-            </div> 
+            
+            <dialog open class="modal">
+                <img src="img/Modal 1 _ Desktop e Tablet.svg">
+                <p></p>
+                <button type="button" class="btn_close" onclick="closedialog">X</button>
+            </dialog> 
          </div> 
          
          <footer class="rodapé">
@@ -205,6 +209,17 @@
     })
  </script>
 
+<script>
+    function closeDialog() {
+      var dialogBox = document.querySelector('.dialog-box');
+      dialogBox.style.display = 'none';
+    }
+  </script>
+
+
+
+
+  </script>
         
     </body>
     </html>
