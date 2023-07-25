@@ -22,3 +22,22 @@
 body {
     font-family: var(--fonte-principal);
 }
+
+.modal h2 {
+    font-size: 16px;
+    font-weight: 700;  
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.modal{
+    width: 90%;
+    height: 20%;
+    border: 1px solid var(--preto-principal);
+    border-bottom: 1px solid  var(--preto-principal);
+    margin: auto;
+    margin-bottom: 30px;
+    
+    
+}
+

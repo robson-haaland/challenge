@@ -172,21 +172,24 @@
             </ul>
 
         </section>
-         <div class="conteudo">
-            <h2 class="conteudo_texto">Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</h2>
-            <form>
-                <label for="name">E-mail</label>
+
+        <section class="conteudo">
+            <h1 class="conteudo_texto">Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</h1>
+          <div>
                 <input type="email" name="email" required placeholder="Digite seu email" class="contato_email">
-                <button type="submit" class="conteudo_botao">Enviar</button> 
-                
-            </form>
+                <button type="submit" class="conteudo_botao">Enviar</button>
+          </div> 
+          
+          <dialog open class="modal">
+            <img src="img/check-circle.svg" class="modal_img" alt="ícone do check">
+            <h2 class="modal_descrição">E-mail cadastrado com sucesso!</h2>
+            <p class="modal_pop">Em breve você receberá novidades exclusivas da Meteora.</p>
+            <button type="submit"> <img src="img/Icon Color.svg" alt="íconde do X"> </button>
+
+          </dialog>
+        </section>
             
-            <dialog open class="modal">
-                <img src="img/Modal 1 _ Desktop e Tablet.svg">
-                <p></p>
-                <button type="button" class="btn_close" onclick="closedialog">X</button>
-            </dialog> 
-         </div> 
+           
          
          <footer class="rodapé">
             
